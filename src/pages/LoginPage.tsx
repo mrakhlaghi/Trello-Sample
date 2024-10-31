@@ -3,7 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import Loading from "../components/Loading";
-import useLocalStorageState from "../hooks/useLocalStoragesTate";
+import useLocalStorageState from "../hooks/useLocalStorageState";
 
 type FormValues = {
   username: string;
