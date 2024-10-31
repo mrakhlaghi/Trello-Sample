@@ -1,0 +1,17 @@
+.select__control {
+  @apply w-full   !rounded-lg  !border !border-secondary-100 !bg-secondary-100 hover:!border-primary-800 focus:!border-primary-800 focus:!bg-secondary-0 transition-all duration-300 ease-out focus:!shadow-lg focus:!shadow-secondary-200 dark:focus:!shadow-secondary-200;
+}
+.select__option {
+  @apply !h-9 !text-secondary-700 hover:!text-secondary-600 hover:dark:!text-secondary-50 dark:bg-secondary-50  dark:hover:bg-primary-800;
+}
+
+.select__single-value {
+  @apply  !text-secondary-900 hover:!border-primary-800 pr-2;
+}
+
+.select__input {
+  @apply  !text-sm !text-secondary-900 pr-4;
+}
+.select__menu {
+  @apply !text-secondary-900 !bg-secondary-100 dark:bg-secondary-50 overflow-hidden rounded-md;
+}
