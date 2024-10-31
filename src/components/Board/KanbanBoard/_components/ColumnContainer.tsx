@@ -87,7 +87,7 @@ function ColumnContainer({
       style={style}
       {...attributes}
       {...listeners}
-      className=" min-w-60 w-60 min-h-14 h-fit flex flex-col justify-start items-start gap-y-3  text-sm text-nowrap  bg-[#101204]  rounded-xl  px-3 pt-3  pb-2"
+      className=" min-w-80 w-80 min-h-14 h-fit flex flex-col justify-start items-start gap-y-3  text-sm text-nowrap  bg-[#101204]  rounded-xl  px-3 pt-3  pb-2"
     >
       <div className="w-full flex justify-between items-center gap-1">
         <div
@@ -126,17 +126,17 @@ function ColumnContainer({
         </SortableContext>
       </div>
       {isOpenAddInput ? (
-        <div className=" w-full flex justify-between items-center">
+        <div className=" w-full flex justify-between items-center mb-0.5">
           <input
             type="text"
             value={inputValue}
             autoFocus
             onChange={(e) => setInputValue(e.target.value)}
-            className=" w-32 h-6 rounded bg-white text-secondary-200 px-3 "
+            className=" w-52 h-7 rounded text-white bg-[#282E33] px-3 "
           />
 
           <button
-            className=" px-2 py-0.5  rounded-[4px] text-sm text-semibold text-[#1d2125] bg-[#579dff] hover:bg-[#85b8ff]  flex justify-center items-center"
+            className=" px-2 py-1  rounded-[4px] text-sm text-semibold text-[#1d2125] bg-[#579dff] hover:bg-[#85b8ff]  flex justify-center items-center"
             onClick={() => {
               if (!inputValue) {
                 setIsOpenAddInput(false);

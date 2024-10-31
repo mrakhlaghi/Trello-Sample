@@ -11,7 +11,7 @@ function AddColBtn({
   return (
     <button
       className={clsx(
-        "flex justify-start items-center gap-x-3 px-3 py-4 min-w-60 w-60 h-7  text-nowrap text-white text-sm bg-secondary-900 bg-opacity-40 hover:bg-opacity-20 rounded-lg  transition-all duration-50  ",
+        "flex justify-start items-center gap-x-3 px-3 py-4 min-w-80 w-80 h-10  text-nowrap text-white text-sm bg-secondary-900 bg-opacity-40 hover:bg-opacity-20 rounded-lg  transition-all duration-50  ",
         className
       )}
       onClick={onClick}
